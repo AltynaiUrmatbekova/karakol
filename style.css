@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+nav {
+    background-color: aqua;
+    padding: 5px;
+}
+.container {
+    max-width: 987px;
+    margin: 0 auto;
+}
+.main {
+display: flex;
+}
+aside {
+    background-color: greenyellow;
+    flex-basis: 20%;
+}
+main {
+    background-color: beige;
+    flex-basis: 60%;
+    padding: 5px;
+}
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+img {
+    padding: 5px;
+}
+aside {
+    background-color: beige;
+    flex-basis: 20%;
+}
+h2 {
+    padding: 5px;
+}
